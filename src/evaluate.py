@@ -138,7 +138,7 @@ if __name__ == '__main__':
     out_file = args['output']
     if out_file:
         with open(out_file, 'w') as outf:
-            outf.write('alignment_file,PPV,numc,maxc')
+            outf.write('alignment_file,PPV,numc,maxc\n')
             outf.write('%s,%s\n' % (args['alignment'], ','.join(map(str, stats))))
     else:
         print '%s,%s' % (args['alignment'], ','.join(map(str, stats)))
