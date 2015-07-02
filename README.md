@@ -1,5 +1,6 @@
-Pipeline to evaluate aligments by contact prediction accuracy
--------------------------------------------------------------
+EvalAligments
+-------------
+
 
 ```
 usage: evaluate.py [-h] [-s SEQFILE] [-n NATIVE] [-c CONTACT] [-t THRESHOLD]
